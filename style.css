@@ -1,0 +1,37 @@
+* {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.hero-header {
+    background: #288bdb;
+    color: #444444;
+    display: flex;
+    /* border: 5px solid red; */
+}
+
+.image-header {
+    width: 10%;
+    /* border: 5px solid red; */
+ }
+
+.name-header {
+    padding-left: 10px;
+    margin-bottom: 3px;
+}
+
+.descrip-header {
+    margin-top: 3px;
+}
+
+.name-descrip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 800px;
+}
