@@ -44,17 +44,33 @@ a:active {
 .nav-bar {
     display: flex;
     align-items: center;
-    padding-left: 800px;
+    padding-left: 715px;
+}
+
+.button {
+    background-color: blue;
+    border-radius: 80px;
+    color: white;
+    text-align: center;
+    text-decoration: ghostwhite;
+    padding: 10px 10px;
+    font-size: 18px;
 }
 
 .body-flex {
-    
+    display: flex;
+    width: 33%;
+    border: 5px solid goldenrod ;
 }
 
 .hp-title {
+    border: 5px solid goldenrod ;
+}
 
+.main-photo {
+    border: 5px solid goldenrod ;
 }
 
 .about-me {
-
+    border: 5px solid goldenrod ;
 }
