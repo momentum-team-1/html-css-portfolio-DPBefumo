@@ -1,17 +1,28 @@
-* {
-    font-family: 'Shadows Into Light', cursive;
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
 }
 
 .hero-header {
+    font-family: 'Shadows Into Light', cursive;
     background: #288bdb;
-    color: #444444;
+    color: #532537;
     display: flex;
-    /* border: 5px solid red; */
 }
 
 .image-header {
     width: 10%;
-    /* border: 5px solid red; */
  }
 
 .name-header {
@@ -34,4 +45,16 @@
     display: flex;
     align-items: center;
     padding-left: 800px;
+}
+
+.body-flex {
+    
+}
+
+.hp-title {
+
+}
+
+.about-me {
+
 }
