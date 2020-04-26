@@ -59,8 +59,6 @@ header {
 }
 
 .button {
-    /* background-color: #4d6d9a;
-    border-radius: 1em; */
     font-size: 1em;
     margin: .05em;
     color: #99ced3;
@@ -86,7 +84,7 @@ header {
     align-items: center;
 }
 
-.hp-title {
+.title {
     font-size: 2em;;
 }
 
