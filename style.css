@@ -1,10 +1,12 @@
-/* * {
+* {
     outline: 5px solid hotpink;
-} */
+}
 
 .hero-header {
+    font-family: 'Shadows Into Light', cursive;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .image-header {
@@ -22,14 +24,14 @@
 }
 
 .name-header {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: .4em;
-    margin-bottom: .3em;
+    margin-bottom: .2em;
 }
 
 .descrip-header {
     font-size: 1em;
-    margin-top: .4em;
+    margin-top: .2em;
     margin-bottom: .3em;
 }
 
@@ -38,6 +40,37 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+}
+
+.button {
+    background-color: blueviolet;
+    border-radius: 1em;
+    font-size: 1em;
+    margin: .05em;
+    color: white;
+    text-decoration: whitesmoke;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.body-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp-title {
+    font-size: 2em;;
 }
 
 .main-photo {
