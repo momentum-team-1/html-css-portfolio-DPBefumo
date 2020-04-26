@@ -1,12 +1,26 @@
-* {
+/* * {
     outline: 5px solid hotpink;
+} */
+
+body{
+    background-color: #86b3d1;
+    color: azure;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+header {
+    width: 100%;
 }
 
 .hero-header {
     font-family: 'Shadows Into Light', cursive;
     display: flex;
     justify-content: space-evenly;
-    
+    border-bottom: 7px #edb5bf solid;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background-color: #5F6366;   
 }
 
 .image-header {
@@ -27,12 +41,14 @@
     font-size: 2em;
     margin-top: .4em;
     margin-bottom: .2em;
+    color: #99ced3;
 }
 
 .descrip-header {
     font-size: 1em;
     margin-top: .2em;
     margin-bottom: .3em;
+    color: #99ced3;
 }
 
 .nav-bar {
@@ -43,11 +59,11 @@
 }
 
 .button {
-    background-color: blueviolet;
-    border-radius: 1em;
+    /* background-color: #4d6d9a;
+    border-radius: 1em; */
     font-size: 1em;
     margin: .05em;
-    color: white;
+    color: #99ced3;
     text-decoration: whitesmoke;
     padding-left: .5em;
     padding-right: .5em;
@@ -60,6 +76,7 @@
     align-content: center;
     margin-left: 15%;
     margin-right: 15%;
+    padding-bottom: 1em;
 }
 
 .about-me {
@@ -76,4 +93,18 @@
 .main-photo {
     width: 40%;
     border-radius: 70%;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-top: 7px #edb5bf outset;
+    padding-top: 1em;
+    background-color: #5F6366;
+}
+
+.foot-links {
+    width: 3em; 
+    height: 3em;
 }
