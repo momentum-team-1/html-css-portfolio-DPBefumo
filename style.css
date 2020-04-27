@@ -2,6 +2,13 @@
     outline: 5px solid hotpink;
 } */
 
+/* @media (min-width 780px) {
+    body {
+    background-image:
+linear-gradient(rgba(134, 179, 209, 0.60), rgba(77, 109, 154, 0.6)), url('background/office-background.png');
+    }
+} */
+
 body{
     background-color: #86b3d1;
     color: azure;
@@ -84,6 +91,14 @@ body{
     font-size: 2em;;
 }
 
+.resume-title {
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
 .main-photo {
     width: 30%;
     border-radius: 70%;
@@ -92,6 +107,14 @@ body{
 .project-img {
     width: 80%;
     align-content: center;
+}
+
+.resume-img {
+    width: 80%;
+    padding-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project {
