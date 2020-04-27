@@ -89,8 +89,36 @@ header {
 }
 
 .main-photo {
-    width: 40%;
+    width: 30%;
     border-radius: 70%;
+}
+
+.project-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 1em;
+}
+
+.project-img {
+    width: 80%;
+    align-content: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.pj-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 2em;
 }
 
 .info-footer {
