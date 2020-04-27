@@ -9,10 +9,6 @@ body{
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-header {
-    width: 100%;
-}
-
 .hero-header {
     font-family: 'Shadows Into Light', cursive;
     display: flex;
@@ -93,16 +89,6 @@ header {
     border-radius: 70%;
 }
 
-.project-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 1em;
-}
-
 .project-img {
     width: 80%;
     align-content: center;
@@ -118,7 +104,7 @@ header {
     align-content: center;
     text-align: center;
     margin: 0;
-    padding: 2em;
+    padding: 1em;
 }
 
 .info-footer {
@@ -128,6 +114,7 @@ header {
     border-top: 7px #edb5bf outset;
     padding-top: 1em;
     background-color: #5F6366;
+    width: 100%;
 }
 
 .foot-links {
