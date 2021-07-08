@@ -1,0 +1,152 @@
+/* * {
+    outline: 5px solid hotpink;
+} */
+
+/* @media (min-width 780px) {
+    body {
+    background-image:
+linear-gradient(rgba(134, 179, 209, 0.60), rgba(77, 109, 154, 0.6)), url('background/office-background.png');
+    }
+} */
+
+body{
+    background-color: #86b3d1;
+    color: azure;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-image: linear-gradient(rgba(134, 179, 209, 0.60), rgba(77, 109, 154, 0.6)), url('background/office-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-header {
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 7px #edb5bf solid;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background-color: #5F6366;   
+}
+
+.image-header {
+    width: 5em;
+    height: 5em;
+    margin-top: 1em;
+}
+
+.name-descrip {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.name-header {
+    font-size: 2em;
+    margin-top: .4em;
+    margin-bottom: .2em;
+    color: #99ced3;
+}
+
+.descrip-header {
+    font-size: 1em;
+    margin-top: .2em;
+    margin-bottom: .3em;
+    color: #99ced3;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.button {
+    font-size: 1em;
+    margin: .05em;
+    color: #99ced3;
+    text-decoration: whitesmoke;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.body-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 1em;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2em;;
+}
+
+.resume-title {
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.main-photo {
+    width: 30%;
+    border-radius: 70%;
+}
+
+.project-img {
+    width: 80%;
+    align-content: center;
+}
+
+.resume-img {
+    width: 80%;
+    padding-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project {
+    text-align: center;
+}
+
+.pj-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+}
+
+
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-top: 7px #edb5bf outset;
+    padding-top: 1em;
+    background-color: #5F6366;
+    width: 100%;
+}
+
+.foot-links {
+    width: 3em; 
+    height: 3em;
+}
